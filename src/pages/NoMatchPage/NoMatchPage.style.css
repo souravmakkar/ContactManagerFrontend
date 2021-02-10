@@ -1,0 +1,14 @@
+.no-match{
+text-align: center;
+margin-top: 40px;
+}
+.no-match h3{
+  color: red;
+  font-size: 40px;
+  padding: 5px;
+}
+.no-match p{
+  color: #0a6ee0;
+  font-size: 24px;
+  font-weight: 400;
+}

@@ -1,0 +1,60 @@
+.modal-wrapper{
+  position: fixed;
+  top: -20px;
+  left: 0;
+  width:100%;
+  height: 100%;
+  transition: all 1.3s;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 111111;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    position: relative;
+    transition: all 1.3s;
+}
+
+/* .modal-content span{
+  position: absolute;
+  font-size: 40px;
+  font-weight: lighter;
+  top: 20px;
+  right: 30px;
+  color: black;
+  cursor: pointer;
+} */
+
+.view-photo-header {
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  /* display: flex; */
+  top: 40px;
+  background-color:#fff;
+}
+.view-photo-header h3{
+  color: black;
+  padding: 5px 0px 5px 30px;
+  width: 200px;
+}
+.view-photo-header span{
+  font-size: 40px;
+  font-weight: lighter;
+  position: absolute;
+  top: -7px;
+  right: 30px;
+  color: black;
+  cursor: pointer;
+}
+.modal-content .view-image{
+  width: 380px;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}

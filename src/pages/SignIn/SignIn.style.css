@@ -1,0 +1,74 @@
+.signin-wrapper{
+  background-color: #1a75ff;
+  height: 90vh;
+  padding-top: 50px;   
+}
+.sigin-container{
+  max-width: 600px;
+  padding: 20px 30px;
+  height: 410px;
+  background-color: #fff;
+  margin: 50px auto;
+  border-radius: 5px;
+}
+ .error-message{
+  color:#d61e1ec5;
+  font-size: 22px ;
+  margin-bottom:5px;
+  padding: 7px;
+}
+.sigin-container .title{
+  color: #1a75ff;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+.sigin-container p{
+  color: #ff3333;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.sigin-container .line{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid  #1a83ff;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 20px;
+}
+
+.form-inputs .error-popup{
+  margin-bottom: -10px;
+}
+.signin-button{
+  position: relative;
+  margin-bottom: 20px;
+}
+.signin-button .success{
+  position: absolute;
+  top: 25px;
+  font-size: 20px;
+  padding: 8px 2px;
+  width: 34%;
+}
+.signin-button .links{
+  position: absolute;
+  top: 24px;
+  right: 10px;
+  color:#ff3333;
+  font-weight: 600;
+}
+
+@media (max-width:580px){
+  
+  .signin-button .success{
+    margin-left: 10px;
+  }
+}

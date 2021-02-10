@@ -1,0 +1,110 @@
+.card .contacts_heading {
+  color: #1a83ff;
+  position: relative;
+  left: 40%;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.inputWithIcon{
+  position: relative;
+  margin: 25px 60px 25px 60px;
+}
+.inputWithIcon .search_input{
+  padding: 7px;
+  width: 100%;
+  border-radius: 7px;
+  outline: none;
+  border: 2px solid #4da0ff;
+}
+
+.inputWithIcon.inputIconBg i {
+  position: absolute;
+  background-color: dodgerblue;
+  font-weight: 900;
+  padding: 4px 8px 0px 8px;
+  border-radius: 6px 0 0 6px;
+  z-index: 999;
+  font-size: 24px;
+  left: 1px;
+  color:red;
+}
+
+.inputWithIcon input[type="text"]::placeholder{
+  padding-left: 50px;
+  color: red;
+  font-size: 18px;
+}
+ input[type="text"]::-webkit-input-placeholder{
+  padding-left: 50px;
+  font-size: 18px;
+  color: red;
+}
+
+input[type="text"]:focus::placeholder{
+  color: transparent;
+ }
+
+ .inputWithIcon input[type="text"]:focus + i {
+  opacity:0;
+}
+.inputWithIcon input[type="text"]:focus {
+  padding-left: 10px;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+ .contact_image{
+  margin: 0 auto;
+  height: 60px;
+  width: 60px; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/img/Contacts_icon.svg');
+}
+
+#contact-table{
+  border-collapse: collapse;
+  width: 90%;
+  margin: 25px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#contact-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #1a83ff;
+  color: white;
+  font-size: 20px;
+}
+
+#contact-table td a{
+text-decoration: none;
+color: black;
+cursor: pointer;
+transform: scale(1.1);
+}
+#contact-table td:hover{
+transform: scale(1.1);
+color: #1a83ff;
+transition: all 0.2s ease;
+}
+
+#contact-table td, #contact-table th {
+  text-align: center;
+  border: 1px solid #ddd;
+  /* padding: 1px; */
+}
+
+#contact-table tr:nth-child(even){background-color: #4da0ff;}
+
+#contact-table tr:hover {background-color: #b3d6ff;}
+
+
+#contact-table button:first-child{
+  margin-right: 20px;
+}
+
+#contact-table td .success,#contact-table td .warning{
+  width: 30%;
+}
